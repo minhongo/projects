@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="js/login.js" type="module" defer></script>
+
+    <!-- BEGIN INSTALLABLE APP-->
+    <link rel="manifest" href="./manifest.webmanifest" crossorigin="use-credentials" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Loocator">
+    <meta name="apple-mobile-web-app-title" content="Loocator">
+    <meta name="theme-color" content="#7085b3">
+    <meta name="msapplication-navbutton-color" content="#7085b3">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/png" sizes="130x139" href="./images/toilet-dark-outline.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="130x139" href="./images/toilet-dark-outline.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./images/icon192x192.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="./images/icon192x192.png">
+    <!-- END INSTALLABLE APP-->
+
+</head>
+
+<body class="d-flex justify-content-center align-items-center">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        <img src="./images/logo-light.png">
+        <div class="container">
+            <form>
+                <h1>Login</h1>
+                <div class="info">
+                    <input type="text" placeholder="Username" id="username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="info">
+                    <input type="password" placeholder="Password" id="password" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+
+                <button type="button" class="login" id="loginButton">Login</button>
+
+                <div class="signUp">
+                    <a href="/signup">Sign Up</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

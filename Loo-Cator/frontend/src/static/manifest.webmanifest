@@ -1,0 +1,22 @@
+{
+  "name": "Loocator",
+  "short_name": "Loocator",
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "lang": "en-US",
+  "theme_color": "#7085b3",
+  "background_color": "#7085b3",
+  "icons": [
+      {
+          "src": "/images/toilet-dark-outline.png",
+          "sizes": "130x139",
+          "type": "image/png"
+      },
+      {
+          "src": "/images/icon192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      }
+  ]
+}

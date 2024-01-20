@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            width: 100%;
+            min-height: 100vh;
+            display: relative;
+            margin: 0;
+            padding: 0;
+            background: -webkit-linear-gradient(180deg, #102636 33%, #192C46 67%, #22254C 100%);
+        }
+
+        .wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        h1 {
+            color: white;
+            font-family: Tahoma;
+            font-size: 50px;
+            letter-spacing: 5px;
+            line-height: 1rem;
+        }
+
+        h4 {
+            color: #f1f1f1;
+            font-family: Tahoma;
+            font-weight: 300;
+            font-size: 16px;
+        }
+
+        .button {
+            display: block;
+            border-radius: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background: rgb(29, 33, 66);
+            font-family: Tahoma;
+            text-decoration: none;
+            box-shadow: 0 5px 5px rgb(29, 33, 66);
+            color: rgb(255, 255, 255);
+            transition: background 0.3s ease;
+        }
+
+        .button:hover {
+            background: #1d4969;
+        }
+    </style>
+    <script>
+        function reloadPage() {
+            location.reload();
+        }
+    </script>
+    <title>Invalid Connection</title>
+    <!-- BEGIN INSTALLABLE APP-->
+    <link rel="manifest" href="../manifest.webmanifest" crossorigin="use-credentials" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Loocator">
+    <meta name="apple-mobile-web-app-title" content="Loocator">
+    <meta name="theme-color" content="#7085b3">
+    <meta name="msapplication-navbutton-color" content="#7085b3">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/png" sizes="130x139" href="../images/toilet-dark-outline.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="130x139" href="../images/toilet-dark-outline.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../images/icon192x192.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="../images/icon192x192.png">
+    <!-- END INSTALLABLE APP-->
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>OFFLINE</h1>
+        <h4>Unable to connect to Loo-cator</h4>
+
+        <a href="javascript:void(0)" class="button" onclick="reloadPage()">RELOAD</a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"  href="css/profile.css">
+
+    <script src="js/profile.js" type="module" defer></script>
+    <script src="js/common.js" type="module" defer></script>
+    <script src="js/serviceWorkerStartUp.js" type="module" defer></script>
+        
+     <!-- BEGIN INSTALLABLE APP-->
+    <link rel="manifest" href="../manifest.webmanifest" crossorigin="use-credentials" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Loocator">
+    <meta name="apple-mobile-web-app-title" content="Loocator">
+    <meta name="theme-color" content="#7085b3">
+    <meta name="msapplication-navbutton-color" content="#7085b3">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/png" sizes="130x139" href="../images/toilet-dark-outline.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="130x139" href="../images/toilet-dark-outline.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../images/icon192x192.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="../images/icon192x192.png">
+     <!-- END INSTALLABLE APP-->
+</head>
+
+<body>
+    <div class="body-container">
+        <div class="header">
+            <img src="../images/logo-light.png">
+        </div>
+
+        <!-- List of reviews user created -->
+        <div class="reviews">
+            <h2>Reviews</h2>
+            <ul id="reviews">
+                <li class="review"></li>
+            </ul>
+        </div>
+
+        <footer>
+          <a class="footer-ctn" href="/favorites">
+            <i class='bx bx-heart'></i>
+            <h1>Favorites</h1>
+          </a>
+          <a class="footer-ctn" href="/profile">
+            <i class='bx bx-user'></i>
+            <h1>Profile</h1>
+          </a>
+          <a class="footer-ctn" href="/settings">
+            <i class='bx bx-cog'></i>
+            <h1>Settings</h1>
+          </a>
+        </footer>
+    </div>
+</body>

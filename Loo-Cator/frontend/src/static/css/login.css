@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(112, 133, 179);
+}
+
+img {
+    margin-top: 0;
+    width: 375px;
+    height: 30%;
+
+    padding-bottom: 15px;
+}
+
+.container {
+    width: 420px;
+    color: white;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 420px) {
+    .container {
+        backdrop-filter: none;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.info {
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    font-size: 16px;
+}
+
+.info i {
+    position: absolute;
+    right: 20px;
+    color: white;
+    font-size: large;
+    margin-top: 4.5%;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 45px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: white;
+    outline: none;
+}
+
+.forgot {
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+.forgot a {
+    text-decoration: none;
+    color: white;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}
+
+button {
+    display: inline-block;
+}
+
+.login {
+    cursor: pointer;
+    justify-items: center;
+    height: 45px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 40px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.login:hover {
+   background-color: rgb(192, 207, 236);
+}
+
+.signUp {
+    margin-top: 20px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.signUp a {
+    color: white;
+    text-decoration: none;
+}
+
+.signUp a:hover {
+    color: white;
+    text-decoration: underline;
+}
