@@ -25,18 +25,18 @@
   - Users will select to view or post reviews for a bathroom 
 
 
-### Wireframe Implementation Status:
-| **Pages** | **Status** | **Wireframe** |
-|----------|----------|----------|
-| Login | ✅ | |
-| Signup | ✅ |  |
-| Select Campus | ✅ |  |
-| Select Building | ✅ | |
-| Select Floor & Bathroom | ✅ | |
-| Bathroom Overall Rating | ✅ | |
-| Review Bathroom | ✅ | |
-| User Profile/Favorites | ✅ | |
-| Settings | ✅ | |
+### Implementation Status:
+| **Pages** | **Status** | 
+|----------|----------|
+| Login | ✅ |
+| Signup | ✅ | 
+| Select Campus | ✅ | 
+| Select Building | ✅ |
+| Select Floor & Bathroom | ✅ |
+| Bathroom Overall Rating | ✅ |
+| Review Bathroom | ✅ | 
+| User Profile/Favorites | ✅ |
+| Settings | ✅ |
 
 
 ### API Endpoints:
