@@ -1,5 +1,8 @@
 # Loo-cator
 
+## A progressive web application displaying all building bathrooms on the NC State campus. Users can provide reviews, comments, and favorite bathrooms for offline access to directions.
+
+
 ### Navigation of Loo-cator & Offline Functionality 
 - **/** or **/login**
   - Default login page where users must enter a valid/registered account to be let into the Loo-cator application
